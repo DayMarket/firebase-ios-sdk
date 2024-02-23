@@ -138,8 +138,8 @@ let package = Package(
   ],
   dependencies: [
     .package(
-      url: "https://github.com/google/promises.git",
-      "2.3.1" ..< "2.3.1"
+        url: "https://github.com/google/promises.git",
+        exact: "2.3.1"
     ),
     .package(
       url: "https://github.com/apple/swift-protobuf.git",
@@ -151,8 +151,8 @@ let package = Package(
       "9.2.0" ..< "10.0.0"
     ),
     .package(
-      url: "https://github.com/google/GoogleUtilities.git",
-      "7.11.0" ..< "8.0.0"
+      url: "https://github.com/DayMarket/GoogleUtilities.git",
+      exact: "7.11.1"
     ),
     .package(
       url: "https://github.com/google/gtm-session-fetcher.git",
