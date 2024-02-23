@@ -139,7 +139,7 @@ let package = Package(
   dependencies: [
     .package(
       url: "https://github.com/google/promises.git",
-      exact("2.3.1")
+      "2.3.1" ..< "2.3.1"
     ),
     .package(
       url: "https://github.com/apple/swift-protobuf.git",
